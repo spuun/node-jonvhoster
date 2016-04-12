@@ -1,0 +1,7 @@
+{
+	"name": "jonvhoster",
+	"description": "Http Vhost router",
+	"author": "Jon Börjesson <jon@spuun.se> (http://spuun.se)",
+	"main": "./lib/server.js",
+	"version": "0.1.0"
+}
