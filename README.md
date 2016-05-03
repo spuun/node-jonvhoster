@@ -15,3 +15,12 @@ module.exports = (req, res) => {
 	res.end('Hi from sub.domain.tdl!');
 };
 ```
+
+### Middleware
+Simple console logging middleware
+```javascript
+server.addMiddleWare((req,res,next) => {
+	console.log(`Request to ${req.url}`);
+	next(),
+});
+```
